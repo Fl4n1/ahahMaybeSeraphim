@@ -1,0 +1,563 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@font-face {
+    font-family: "Konnect-SemiBold";
+    src: url("../font/Konnect/Konnect-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Gteapac";
+    src: url("../font/Gteapac.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+html,
+body {
+    min-height: 100%;
+    height: 100%;
+}
+
+#wrapper {
+    min-height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+#page {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 100%;
+}
+
+#header {
+    z-index: 9999;
+}
+
+
+/*Обнуление*/
+
+
+/* * {
+padding: 0;
+margin: 0;
+border: 0;
+}
+
+*,
+*:before,
+*:after {
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+:focus,
+:active {
+outline: none;
+}
+
+a:focus,
+a:active {
+outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+display: block;
+}
+
+html,
+body {
+height: 100%;
+width: 100%;
+font-size: 100%;
+line-height: 1;
+font-size: 14px;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+font-family: inherit;
+}
+
+input::-ms-clear {
+display: none;
+}
+
+button {
+cursor: pointer;
+}
+
+button::-moz-focus-inner {
+padding: 0;
+border: 0;
+}
+
+a,
+a:visited {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+ul,
+li {
+list-style: none;
+}
+
+img {
+vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-size: inherit;
+font-weight: inherit;
+}
+
+-------------------- */
+
+body {
+    background-color: #f7f7f7;
+    font-family: "Roboto", sans-serif, fantasy !important;
+    font-size: 600;
+    overflow-x: hidden;
+    width: 100% !important;
+}
+
+header {
+    /* background-color: rgb(136, 136, 136); */
+    /* background-color: rgb(166, 167, 165); */
+    background-color: none !important;
+    padding: 5px;
+    position: relative;
+    /* opacity: 0.8; */
+    z-index: 1;
+}
+
+.a32 {
+    position: absolute;
+}
+
+.engFont {
+    font-family: "Konnect-SemiBold";
+}
+
+.Seraphim {
+    font-size: 24px;
+}
+
+.index_button_work {
+    position: absolute;
+    right: 1rem;
+}
+
+.instagram-relative {
+    position: relative;
+}
+
+.last-Instagram {
+    position: absolute;
+    right: 0;
+}
+
+.no_a {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.bgBanner {
+    position: relative;
+}
+
+.imgSeraphimHeader {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+}
+
+.imgHeaderSeraphim {
+    -webkit-filter: brightness(0.65) grayscale(0.5);
+    filter: brightness(0.65) grayscale(0.5);
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.BannerTextSeraphim {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #f7f7f7;
+    font-size: 60px;
+}
+
+.SeraphimGeneral {
+    z-index: 0;
+    font-family: "Gteapac";
+    text-align: center;
+    font-size: 90px;
+}
+
+.midari {
+    -webkit-filter: brightness(1);
+    filter: brightness(1);
+}
+
+.relative_block {
+    position: relative;
+}
+
+.navbar_blog_right_block {
+    position: absolute;
+    margin: auto 0;
+    right: 0;
+}
+
+.main_blog_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.featurette-divider {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.vibor_clothes_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.vibor_clothes {
+    /* width: 625px;
+    height: 625px; */
+    padding: 0 10px;
+    -webkit-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+    -webkit-filter: brightness(0.95);
+    filter: brightness(0.95);
+}
+
+.stop_transform_block {
+    -webkit-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+}
+
+.vibor_clothes:hover {
+    -webkit-filter: brightness(0.6);
+    filter: brightness(0.6);
+}
+
+.img_tovar img {
+    width: 400px;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.khj {
+    margin-bottom: 30px;
+}
+
+.card_images_new {
+    -webkit-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+}
+
+.card_images_new:hover {
+    -webkit-filter: brightness(0.6);
+    filter: brightness(0.6);
+}
+
+.about_row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.trtr {
+    position: relative;
+}
+
+.stop_transform_block {
+    position: relative;
+}
+
+.hover_main_text_services {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+    /* text-align: center;
+    justify-content: center;
+    align-items: center; */
+}
+
+.stop_transform_block:hover .hover_main_text_services {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+}
+
+.stop_transform_block:hover .vibor_clothes {
+    -webkit-filter: brightness(0.6);
+    filter: brightness(0.6);
+}
+
+.fer {
+    text-align: center;
+}
+
+.edw {
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.textPOnIndx {
+    text-align: justify;
+}
+
+
+/* OurWork */
+
+.nopd {
+    padding: 0;
+}
+
+.bgheaderWork {
+    position: relative;
+}
+
+.imgbdheader {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+}
+
+.imgHeaderWork {
+    -webkit-filter: brightness(0.5)/* grayscale(0.5) */
+    ;
+    filter: brightness(0.5)/* grayscale(0.5) */
+    ;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.about_shopOW {
+    margin: 30px 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #f7f7f7;
+    max-width: 600px;
+    /* font-size: 40px; */
+}
+
+.about_shopOW h1 {
+    font-size: 60px;
+}
+
+.about_shopOW p {
+    font-size: 20px;
+}
+
+
+/* about */
+
+.about_shop {
+    margin: 40px 0;
+}
+
+.about_text {
+    max-width: 900px;
+    width: 100%;
+    margin-bottom: 30px 0;
+}
+
+
+/* blog */
+
+.headerDark {
+    background-color: rgb(87, 87, 87);
+}
+
+
+/* lg */
+
+@media (max-width: 960px) {
+    .imgSeraphimHeader {
+        height: 480px;
+    }
+    .SeraphimGeneral {
+        font-size: 70px;
+    }
+    .index_button_work {
+        position: relative;
+        width: 100%;
+        margin-left: 4rem;
+        margin-bottom: 20px;
+    }
+    /* OurWork */
+    .about_shopOW {
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    .imgbdheader {
+        height: 500px;
+    }
+    .about_shopOW h1 {
+        font-size: 50px;
+    }
+    .about_shopOW p {
+        font-size: 18px;
+    }
+}
+
+
+/* md */
+
+@media (max-width: 720px) {
+    .imgSeraphimHeader {
+        height: 400px;
+    }
+    .SeraphimGeneral {
+        font-size: 65px;
+    }
+    /* OurWork */
+    .imgbdheader {
+        height: 420px;
+    }
+    .about_shopOW h1 {
+        font-size: 40px;
+    }
+    .about_shopOW p {
+        font-size: 16px;
+    }
+}
+
+
+/* sm */
+
+@media (max-width: 576px) {
+    header {
+        background-color: rgb(87, 87, 87);
+    }
+    /* .midari {
+        margin: 0 auto;
+        margin-top: 10px;
+    } */
+    .index_button_work {
+        position: relative;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .vibor_clothes_block {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .stop_transform_block {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    /* .vibor_clothes {
+        height: 30%;
+        width: 80%;
+    } */
+    .vibor_clothes:last-child {
+        margin-top: 20px;
+    }
+    /* OurWork */
+    .imgbdheader {
+        height: 400px;
+    }
+    .about_shopOW h1 {
+        font-size: 35px;
+    }
+    .about_shopOW p {
+        font-size: 14px;
+    }
+}
+
+#info {
+    bottom: 2%;
+    -webkit-transform: translate(50%, 0);
+    -ms-transform: translate(50%, 0);
+    transform: translate(50%, 0);
+    right: 50%;
+}
